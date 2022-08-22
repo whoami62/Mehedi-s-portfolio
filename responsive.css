@@ -1,0 +1,71 @@
+/*Extra Large devices 1200px  */
+
+@media only screen and (min-width: 1200px) {
+    .drawer-menu-start {
+        display: none;
+    }
+}
+
+
+/* Large devices 992px - 1199px  */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .drawer-menu-start {
+        display: none;
+    }
+}
+
+
+/* TAblet mode 768px - 991px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .drawer-menu-start {
+        display: none;
+    }
+    .single-portfolio {
+        z-index: -1;
+    }
+    .def-pad {
+        padding: 40px 0px;
+    }
+    .project-title h1 {
+        font-size: 29px;
+    }
+    .project-title h1::before {
+        top: 37px;
+    }
+    .profile-image {
+        height: 300px;
+    }
+    .biodata-content {
+        padding: 52px 0px;
+    }
+    .biodata-content h2 {
+        line-height: 30px;
+        font-size: 25px;
+    }
+    .biodata-content p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+
+/*small mobile devices 577px -767px */
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    .all-area-include.sticky.fixed,
+    .all-area-include.sticky {
+        display: none!important;
+    }
+}
+
+
+/*Extra Small mobile devices 0px - 575px */
+
+@media only screen and (max-width: 575px) {
+    .all-area-include.sticky.fixed,
+    .all-area-include.sticky {
+        display: none!important;
+    }
+}
